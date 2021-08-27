@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import os
 
 # CONSTANTS
@@ -35,3 +37,4 @@ f.close()
 
 print("All your folders and files are made, enjoy making your YouTube Video :)")
 print("Go to: " + os.path.join(MAIN_FILE_PATH, nameOfVideo))
+os.system("pause")
