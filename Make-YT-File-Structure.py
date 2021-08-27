@@ -21,9 +21,17 @@ while nameOfVideo == "":
 
 print("Making file structure for %s..." % nameOfVideo)
 
+# Creates main folder
 makeFolder(MAIN_FILE_PATH, nameOfVideo)
 
+# Creates all the sub folders
 for folder in SUB_FOLDERS_TO_MAKE:
     makeFolder(os.path.join(MAIN_FILE_PATH, nameOfVideo), folder)
 
-print("All your folders are made, enjoy making your YouTube Video :)")
+# Creates a Hitfilm project, where you can edit videos
+hitfilmFile = nameOfVideo + ".hfp"
+f = open(os.path.join(MAIN_FILE_PATH, nameOfVideo, hitfilmFile), "x")
+f.close()
+
+print("All your folders and files are made, enjoy making your YouTube Video :)")
+print("Go to: " + os.path.join(MAIN_FILE_PATH, nameOfVideo))
