@@ -406,8 +406,8 @@
   ('imp', 'c:\\users\\sagar\\anaconda3\\lib\\imp.py', 'PYMODULE'),
   ('typing', 'c:\\users\\sagar\\anaconda3\\lib\\typing.py', 'PYMODULE'),
   ('_py_abc', 'c:\\users\\sagar\\anaconda3\\lib\\_py_abc.py', 'PYMODULE'),
+  ('stringprep', 'c:\\users\\sagar\\anaconda3\\lib\\stringprep.py', 'PYMODULE'),
   ('tracemalloc',
    'c:\\users\\sagar\\anaconda3\\lib\\tracemalloc.py',
    'PYMODULE'),
-  ('stringprep', 'c:\\users\\sagar\\anaconda3\\lib\\stringprep.py', 'PYMODULE'),
   ('os', 'c:\\users\\sagar\\anaconda3\\lib\\os.py', 'PYMODULE')])

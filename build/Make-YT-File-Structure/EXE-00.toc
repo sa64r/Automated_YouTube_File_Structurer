@@ -3,7 +3,7 @@
  True,
  False,
  True,
- 'c:\\users\\sagar\\anaconda3\\lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-console.ico',
+ 'icon.ico',
  None,
  False,
  False,
@@ -53,7 +53,7 @@
  [],
  False,
  False,
- 1630070023,
+ 1630074632,
  [('run.exe',
    'c:\\users\\sagar\\anaconda3\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
    'EXECUTABLE')])
